@@ -14,7 +14,7 @@ export function TableHeader() {
     TableHeaderImage,
     TableHeaderInfo({
       title: "Premier League",
-      description: "Season 2022 - 2023",
+      description: "Season 2021",
     })
   );
 }
