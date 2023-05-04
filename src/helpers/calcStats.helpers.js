@@ -1,6 +1,6 @@
 import { matchResultOption } from "../constants/matches.constants.js";
 
-export function calcClabStat(clubStat = {}, scores = [], matchResult) {
+export function calcClubStat(clubStat = {}, scores = [], matchResult) {
   const defaultStat = {
     ...clubStat,
     mp: clubStat.mp + 1,
