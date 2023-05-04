@@ -1,5 +1,5 @@
 export const matchResultOption = {
-    WIN: "win",
-    LOSE: "lose", 
-    DRAW: "draw"
+  WIN: "win",
+  LOSE: "lose",
+  DRAW: "draw",
 };
