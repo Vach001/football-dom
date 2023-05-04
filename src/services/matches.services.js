@@ -1,6 +1,6 @@
-import { calcClabStat } from "../helpers/calcStats.helpers.js";
+import { calcClubStat } from "../helpers/calcStats.helpers.js";
 
-export default function getClabsStat(matches = [], {WIN, DRAW, LOSE}) {
+export default function getClubsStat(matches = [], {WIN, DRAW, LOSE}) {
   const defoultStat = {
     mp: 0,
     w: 0,
@@ -29,12 +29,12 @@ export default function getClabsStat(matches = [], {WIN, DRAW, LOSE}) {
       clubsResult.team1 = LOSE;
       clubsResult.team2 = WIN;
     }
-    acc[team1] = calcClabStat(
+    acc[team1] = calcClubStat(
       team1Stat,
       [team1Score, team2Score],
       clubsResult.team1,
     );
-    acc[team2] = calcClabStat(
+    acc[team2] = calcClubStat(
       team2Stat,
       [team2Score, team1Score],
       clubsResult.team2,
